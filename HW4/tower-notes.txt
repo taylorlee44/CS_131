@@ -1,0 +1,21 @@
+Ambiguous Solutions to a given C: 
+
+Using the predicate call: ambiguous(4, C, T1, T2).
+
+This predicate returned the following ambiguous solutions: 
+
+C = counts([4,2,2,1],[1,2,2,4],[4,2,2,1],[1,2,2,4])
+T1 = [[1,2,3,4],[2,1,4,3],[3,4,1,2],[4,3,2,1]]
+T2 = [[1,2,3,4],[2,4,1,3],[3,1,4,2],[4,3,2,1]]
+
+
+____________________
+
+When running the predicate: speedup(X). 
+
+I would get the answer: 
+
+X = 3.4705882352941178 ?
+
+This ratio is above 1 and shows that the FD implementation
+is faster than without it. 

@@ -1,0 +1,28 @@
+subset: 
+I approached this checking all elements in a to see if they belong in b. for_all and mem 
+are functions that do this well. 
+
+equal_sets: 
+Sets a and b are equal if they are both subsets of each other. 
+
+set_union: 
+I uniquely sorted lists a and b. I then concatonated both sets into another list. I then used that sorted that list to get a list that had the union of both. 
+
+set_intersection: 
+I filtered all the elements of a that are in b, using filter and mem
+
+set_diff: 
+Same as set_intersection but the opposite. 
+
+computed_fixed_point: 
+The base case states that if (f x) equals x, then return x. Else, run the recursive funciton again, 
+this time calling the function with (f x), not just x. 
+
+filter_reachable: 
+I first tried to use a DFS, but this method proved too hard to implement in a cohesive way. 
+So I tried a different method. I created a recursive function findRules that will repeatedly 
+scan through the list of rules given and see if there are any reachable rules. If there are, 
+then you add the RHS of the reachable rule to the growingList of rules IFF the RHS is not 
+already in the growingLIst and the LHS is in the growingList. If findRules cannot find any 
+more rules, it returns and doesn't recursively call. Then, using the growingList that contains the 
+list of rules that are reachable, I filtered out all the unreachable rules from the intial list. 

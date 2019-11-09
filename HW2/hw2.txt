@@ -1,0 +1,26 @@
+Although I spent multiple days making my two functions, after all my work
+ my two functions still were not functional. Consequently, I changed both 
+ my make_matcher and make_parser functions to return "None" so that 
+ they compile and can pass a couple trivial test cases. My make_matcher 
+ and my make_parser functions are not fully functional. 
+ However, in this report I will explain how I attempted (unsuccesfully)
+ to implement these functions.
+
+ For make_matcher, I attempted to apply an acceptor and the given 
+ fragment frag. This function recursively called on the fragment in 
+ order to parse the fragment into prefixes that would be compatible
+ with the grammar. After finding these prefixes, it would pass the 
+ suffixes into the acceptor function, and return whatever the a
+ acceptor function returned. 
+
+ For make_parser, I tried to return a parser for the grammar gram. The
+ parser returned an optional parse tree. I first attempted to do this by 
+ figuring out what made the parse_tree_leaves function work. Then, I 
+ tried to reverse engineer the function so that instead of receiving 
+ a tree and outputting the leaves, I was able to receive a list of 
+ leaves and output a tree. However, after many hours dedicated to this 
+ function, this function was ultimately unsuccessful, hence why I 
+ returned None for both functions. 
+
+My warmup questions are completely functional, and hopefully I receive
+at least some partial credit for the assignment! :) 
