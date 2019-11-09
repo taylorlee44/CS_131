@@ -1,0 +1,43 @@
+06-Jun-19 20:00:04 - INFO: Server Created
+06-Jun-19 20:00:37 - INFO: RECEIVED REQUEST:
+ UPDATELOC Hands +39852502.53650212 +34.068930-118.445127 1520023934.918963997 kiwi.cs.ucla.edu
+06-Jun-19 20:00:37 - INFO: Received UPDATELOC of kiwi.cs.ucla.edu.
+06-Jun-19 20:00:37 - INFO: Adding to Dictionary: kiwi.cs.ucla.edu at +34.068930-118.445127.
+06-Jun-19 20:00:37 - INFO: Created Task for Goloman.
+06-Jun-19 20:00:37 - INFO: Created Task for Hands.
+06-Jun-19 20:00:37 - INFO: Created Task for Holiday.
+06-Jun-19 20:00:37 - INFO: Running Task.
+06-Jun-19 20:00:37 - INFO: Sending kiwi.cs.ucla.edu location at +34.068930-118.445127 to Goloman.
+06-Jun-19 20:00:37 - INFO: Sending kiwi.cs.ucla.edu location at +34.068930-118.445127 to Hands.
+06-Jun-19 20:00:37 - INFO: Running Task.
+06-Jun-19 20:00:37 - INFO: Running Task.
+06-Jun-19 20:00:37 - INFO: Sending kiwi.cs.ucla.edu location at +34.068930-118.445127 to Holiday.
+06-Jun-19 20:00:37 - INFO: RECEIVED REQUEST:
+ UPDATELOC Hands +39852502.53650212 +34.068930-118.445127 1520023934.918963997 kiwi.cs.ucla.edu
+06-Jun-19 20:00:37 - INFO: Received UPDATELOC of kiwi.cs.ucla.edu.
+06-Jun-19 20:00:37 - INFO: Location of kiwi.cs.ucla.edu is already updated at +34.068930-118.445127.
+06-Jun-19 20:00:37 - INFO: RECEIVED REQUEST:
+ UPDATELOC Hands +39852502.53650212 +34.068930-118.445127 1520023934.918963997 kiwi.cs.ucla.edu
+06-Jun-19 20:00:37 - INFO: Received UPDATELOC of kiwi.cs.ucla.edu.
+06-Jun-19 20:00:37 - INFO: Location of kiwi.cs.ucla.edu is already updated at +34.068930-118.445127.
+06-Jun-19 20:00:50 - INFO: RECEIVED REQUEST:
+ UPDATELOC Goloman +39852516.02018285 +34.068930-118.445127 1520023934.91896324 taylor
+06-Jun-19 20:00:50 - INFO: Received UPDATELOC of taylor.
+06-Jun-19 20:00:50 - INFO: Adding to Dictionary: taylor at +34.068930-118.445127.
+06-Jun-19 20:00:50 - INFO: Created Task for Goloman.
+06-Jun-19 20:00:50 - INFO: Created Task for Hands.
+06-Jun-19 20:00:50 - INFO: Created Task for Holiday.
+06-Jun-19 20:00:50 - INFO: Running Task.
+06-Jun-19 20:00:50 - INFO: Sending taylor location at +34.068930-118.445127 to Goloman.
+06-Jun-19 20:00:50 - INFO: Sending taylor location at +34.068930-118.445127 to Hands.
+06-Jun-19 20:00:50 - INFO: Running Task.
+06-Jun-19 20:00:50 - INFO: Running Task.
+06-Jun-19 20:00:50 - INFO: Sending taylor location at +34.068930-118.445127 to Holiday.
+06-Jun-19 20:00:50 - INFO: RECEIVED REQUEST:
+ UPDATELOC Goloman +39852516.02018285 +34.068930-118.445127 1520023934.91896324 taylor
+06-Jun-19 20:00:50 - INFO: Received UPDATELOC of taylor.
+06-Jun-19 20:00:50 - INFO: Location of taylor is already updated at +34.068930-118.445127.
+06-Jun-19 20:00:50 - INFO: RECEIVED REQUEST:
+ UPDATELOC Goloman +39852516.02018285 +34.068930-118.445127 1520023934.91896324 taylor
+06-Jun-19 20:00:50 - INFO: Received UPDATELOC of taylor.
+06-Jun-19 20:00:50 - INFO: Location of taylor is already updated at +34.068930-118.445127.

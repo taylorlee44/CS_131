@@ -1,0 +1,136 @@
+06-Jun-19 19:59:39 - INFO: Server Created
+06-Jun-19 20:00:37 - INFO: RECEIVED REQUEST:
+ UPDATELOC Hands +39852502.53650212 +34.068930-118.445127 1520023934.918963997 kiwi.cs.ucla.edu
+06-Jun-19 20:00:37 - INFO: Received UPDATELOC of kiwi.cs.ucla.edu.
+06-Jun-19 20:00:37 - INFO: Adding to Dictionary: kiwi.cs.ucla.edu at +34.068930-118.445127.
+06-Jun-19 20:00:37 - INFO: Created Task for Goloman.
+06-Jun-19 20:00:37 - INFO: Created Task for Wilkes.
+06-Jun-19 20:00:37 - INFO: Created Task for Welsh.
+06-Jun-19 20:00:37 - INFO: Running Task.
+06-Jun-19 20:00:37 - INFO: RECEIVED REQUEST:
+ UPDATELOC Hands +39852502.53650212 +34.068930-118.445127 1520023934.918963997 kiwi.cs.ucla.edu
+06-Jun-19 20:00:37 - INFO: Received UPDATELOC of kiwi.cs.ucla.edu.
+06-Jun-19 20:00:37 - INFO: Location of kiwi.cs.ucla.edu is already updated at +34.068930-118.445127.
+06-Jun-19 20:00:37 - INFO: Sending kiwi.cs.ucla.edu location at +34.068930-118.445127 to Goloman.
+06-Jun-19 20:00:37 - INFO: Sending kiwi.cs.ucla.edu location at +34.068930-118.445127 to Wilkes.
+06-Jun-19 20:00:37 - INFO: Sending kiwi.cs.ucla.edu location at +34.068930-118.445127 to Welsh.
+06-Jun-19 20:00:37 - INFO: Running Task.
+06-Jun-19 20:00:37 - INFO: Running Task.
+06-Jun-19 20:00:37 - INFO: RECEIVED REQUEST:
+ UPDATELOC Hands +39852502.53650212 +34.068930-118.445127 1520023934.918963997 kiwi.cs.ucla.edu
+06-Jun-19 20:00:37 - INFO: Received UPDATELOC of kiwi.cs.ucla.edu.
+06-Jun-19 20:00:37 - INFO: Location of kiwi.cs.ucla.edu is already updated at +34.068930-118.445127.
+06-Jun-19 20:00:50 - INFO: RECEIVED REQUEST:
+ UPDATELOC Goloman +39852516.02018285 +34.068930-118.445127 1520023934.91896324 taylor
+06-Jun-19 20:00:50 - INFO: Received UPDATELOC of taylor.
+06-Jun-19 20:00:50 - INFO: Adding to Dictionary: taylor at +34.068930-118.445127.
+06-Jun-19 20:00:50 - INFO: Created Task for Goloman.
+06-Jun-19 20:00:50 - INFO: Created Task for Wilkes.
+06-Jun-19 20:00:50 - INFO: Created Task for Welsh.
+06-Jun-19 20:00:50 - INFO: Running Task.
+06-Jun-19 20:00:50 - INFO: Sending taylor location at +34.068930-118.445127 to Goloman.
+06-Jun-19 20:00:50 - INFO: Sending taylor location at +34.068930-118.445127 to Wilkes.
+06-Jun-19 20:00:50 - INFO: Sending taylor location at +34.068930-118.445127 to Welsh.
+06-Jun-19 20:00:50 - INFO: Running Task.
+06-Jun-19 20:00:50 - INFO: Running Task.
+06-Jun-19 20:00:50 - INFO: RECEIVED REQUEST:
+ UPDATELOC Goloman +39852516.02018285 +34.068930-118.445127 1520023934.91896324 taylor
+06-Jun-19 20:00:50 - INFO: Received UPDATELOC of taylor.
+06-Jun-19 20:00:50 - INFO: Location of taylor is already updated at +34.068930-118.445127.
+06-Jun-19 20:00:50 - INFO: RECEIVED REQUEST:
+ UPDATELOC Goloman +39852516.02018285 +34.068930-118.445127 1520023934.91896324 taylor
+06-Jun-19 20:00:50 - INFO: Received UPDATELOC of taylor.
+06-Jun-19 20:00:50 - INFO: Location of taylor is already updated at +34.068930-118.445127.
+06-Jun-19 20:01:00 - INFO: RECEIVED REQUEST:
+ WHATSAT taylor 2 1
+
+06-Jun-19 20:01:02 - INFO: WHATSAT RESPONSE: 
+ AT Goloman +39852516.02018285 taylor +34.068930-118.445127 1520023934.91896324
+{
+   "html_attributions": [],
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.0522342,
+               "lng": -118.2436849
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.3373061,
+                  "lng": -118.1552891
+               },
+               "southwest": {
+                  "lat": 33.7036519,
+                  "lng": -118.6681759
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name": "Los Angeles",
+         "photos": [
+            {
+               "height": 3246,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/110746724330263775229/photos\">haubels</a>"
+               ],
+               "photo_reference": "CmRaAAAAikjieBTp7DH81B9RNC2oNCTE9q4xkCTZi2lTW4WoRSWIV_g4cQjTQsiqU3WD8V6c0wWU0H4Y9ySpcTrZ4yVpQAbvf2xvg1SMy005QHETvaVD17o920Gam-NAgZWaMDvXEhDJ0ngZpEkxYSTIaaYfvWgRGhSsTcn8DNQQvEC3UeR2CmWpUkXyIA",
+               "width": 4928
+            }
+         ],
+         "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "Los Angeles"
+      }
+   ],
+   "status": "OK"
+}
+
+
+06-Jun-19 20:01:20 - INFO: RECEIVED REQUEST:
+ WHATSAT kiwi.cs.ucla.edu 10 1
+
+06-Jun-19 20:01:20 - INFO: WHATSAT RESPONSE: 
+ AT Hands +39852502.53650212 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+{
+   "html_attributions": [],
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.0688873,
+               "lng": -118.4450169
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.0702312302915,
+                  "lng": -118.4436835197085
+               },
+               "southwest": {
+                  "lat": 34.0675332697085,
+                  "lng": -118.4463814802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "ef162ea4f60a0b3933fae75544dba377b996befa",
+         "name": "Westwood Plaza",
+         "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "scope": "GOOGLE",
+         "types": [
+            "route"
+         ],
+         "vicinity": "Los Angeles"
+      }
+   ],
+   "status": "OK"
+}
+
+
